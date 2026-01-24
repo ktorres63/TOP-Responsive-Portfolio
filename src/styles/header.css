@@ -1,0 +1,29 @@
+
+.site-header {
+  background-color: var(--secondary);
+}
+.hero-backgrounds {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  background-color: var(--secondary);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 40%, 0% min(70vh, 80%));
+
+  /* background: #3f90fb;
+  background: radial-gradient(
+    circle,
+    rgba(63, 144, 251, 1) 0%,
+    rgba(252, 149, 70, 1) 100%
+  ); */
+  /* transform: skewY(-10deg); */
+}
+
+.hero-links{
+  display: flex;
+
+}
+a img{
+  width: 30px;
+  height: 30px;
+}

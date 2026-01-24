@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="hero-background"></div>
+      <div>
+        <img src="imgs/AlexPhoto.jpg" alt="Foto de perfil" />
+        <h1 class="logo">Alex Rivera</h1>
+      </div>
+
+      <section class="hero">
+        <div class="hero-text">
+          <h2>About me</h2>
+          <p>
+            Hello, I'm Alex Rivera, a passionate photographer based in Barcelona
+            with over 12 years of experience capturing life's most precious
+            moments. My journey began with an old film camera inherited from my
+            grandfather, and it has evolved into a lifelong pursuit of visual
+            storytelling.
+          </p>
+        </div>
+        <div class="hero-links">
+          <a href="https://www.github.com" target="_blank">
+            <img src="icons/github.svg" alt="github icon" />
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img src="icons/linkedin.svg" alt="linkedin icon" />
+          </a>
+          <a href="https://www.github.com" target="_blank">
+            <img src="icons/instagram.svg" alt="instagram icon" />
+          </a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>My work</h2>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <img src="imgs/photo1.jpg" alt="a beautiful photo" />
+              <h3>Proyecto Uno</h3>
+              <p>Descripción breve del proyecto.</p>
+              <a href="#" class="project-link">Ver proyecto</a>
+            </article>
+
+            <article class="project-card">
+              <img src="imgs/photo2.jpg" alt="a beautiful photo" />
+              <h3>Proyecto Dos</h3>
+              <p>Descripción breve del proyecto.</p>
+              <a href="#" class="project-link">Ver proyecto</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Contact me</h2>
+
+          <address class="contact-info">
+            <p>
+              Email: <a href="mailto:correo@ejemplo.com">correo@ejemplo.com</a>
+            </p>
+            <p>GitHub: <a href="#">github.com/usuario</a></p>
+            <p>LinkedIn: <a href="#">linkedin.com/in/usuario</a></p>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 TuNombre. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
