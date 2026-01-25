@@ -1,19 +1,11 @@
 .site-header {
   background: linear-gradient(
-    153deg,
+    165deg,
     var(--secondary) 0%,
     var(--secondary) 50%,
     var(--primary) 50%,
     var(--primary) 100%
   );
-}
-
-.hero-links {
-  display: flex;
-}
-a img {
-  width: 30px;
-  height: 30px;
 }
 
 .hero-img {
@@ -36,3 +28,40 @@ a img {
   font-size: 4rem;
   white-space: nowrap;
 }
+section.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 1rem;
+}
+
+.hero-text h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.hero-text p {
+  font-family: Roboto;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.hero-links {
+  display: flex;
+  gap: 0.5rem;
+}
+a img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+

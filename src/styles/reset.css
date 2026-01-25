@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   text-rendering: optimizeLegibility;
+  background-color: var(--primary);
 }
 
 
